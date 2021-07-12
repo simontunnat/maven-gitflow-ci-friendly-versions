@@ -43,7 +43,6 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.16.0</version>
         <configuration>
-          <pushRemote>false</pushRemote>
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <useSnapshotInRelease>true</useSnapshotInRelease>
