@@ -50,6 +50,7 @@
 
           <gitFlowConfig>
             <productionBranch>main</productionBranch>
+            <versionTagPrefix>v</versionTagPrefix>
           </gitFlowConfig>
         </configuration>
       </plugin>
