@@ -47,6 +47,8 @@
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <useSnapshotInRelease>true</useSnapshotInRelease>
+          <preReleaseGoals>verify</preReleaseGoals>
+          <postReleaseGoals>verify</postReleaseGoals>
 
           <gitFlowConfig>
             <productionBranch>main</productionBranch>
