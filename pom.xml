@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.tunnat</groupId>
+    <artifactId>maven-parent</artifactId>
+    <version>2006.2</version>
+  </parent>
+
+  <groupId>org.tunnat.maven</groupId>
+  <artifactId>gitflow-ci-friendly-versions-example</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>Maven Git-Flow Plugin with CI Friendly Versions Example</description>
+  <url>https://github.com/simontunnat/maven-gitflow-ci-friendly-versions-example</url>
+
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Simon Tunnat</name>
+      <email>simon@tunn.at</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <revision>1.0-SNAPSHOT</revision>
+  </properties>
+
+  <build>
+    <plugins>
+    </plugins>
+  </build>
+</project>
