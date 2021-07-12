@@ -33,7 +33,7 @@
   </developers>
 
   <properties>
-    <revision>1.2</revision>
+    <revision>1.3</revision>
   </properties>
 
   <build>
@@ -47,6 +47,8 @@
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <useSnapshotInRelease>true</useSnapshotInRelease>
+          <preReleaseGoals>verify</preReleaseGoals>
+          <postReleaseGoals>verify</postReleaseGoals>
 
           <gitFlowConfig>
             <productionBranch>main</productionBranch>
