@@ -33,7 +33,7 @@
   </developers>
 
   <properties>
-    <revision>1.0</revision>
+    <revision>1.1-SNAPSHOT</revision>
   </properties>
 
   <build>
