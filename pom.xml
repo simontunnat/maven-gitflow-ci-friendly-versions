@@ -33,7 +33,7 @@
   </developers>
 
   <properties>
-    <revision>1.1</revision>
+    <revision>1.2</revision>
   </properties>
 
   <build>
@@ -43,12 +43,14 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.16.0</version>
         <configuration>
+          <pushRemote>true</pushRemote>
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <useSnapshotInRelease>true</useSnapshotInRelease>
 
           <gitFlowConfig>
             <productionBranch>main</productionBranch>
+            <versionTagPrefix>v</versionTagPrefix>
           </gitFlowConfig>
         </configuration>
       </plugin>
