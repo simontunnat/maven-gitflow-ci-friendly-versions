@@ -48,6 +48,7 @@
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
+          <digitsOnlyDevVersion>true</digitsOnlyDevVersion>
           <useSnapshotInRelease>true</useSnapshotInRelease>
           <preReleaseGoals>verify</preReleaseGoals>
           <postReleaseGoals>verify</postReleaseGoals>
