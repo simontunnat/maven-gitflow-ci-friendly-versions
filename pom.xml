@@ -47,6 +47,7 @@
           <pushRemote>true</pushRemote>
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
+          <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
           <useSnapshotInRelease>true</useSnapshotInRelease>
           <preReleaseGoals>verify</preReleaseGoals>
           <postReleaseGoals>verify</postReleaseGoals>
