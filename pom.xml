@@ -44,12 +44,12 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.16.0</version>
         <configuration>
-          <pushRemote>true</pushRemote>
+          <pushRemote>false</pushRemote>
           <versionProperty>revision</versionProperty>
           <skipUpdateVersion>true</skipUpdateVersion>
           <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
           <digitsOnlyDevVersion>true</digitsOnlyDevVersion>
-          <useSnapshotInRelease>true</useSnapshotInRelease>
+          <useSnapshotInRelease>false</useSnapshotInRelease>
           <preReleaseGoals>verify</preReleaseGoals>
           <postReleaseGoals>verify</postReleaseGoals>
 
